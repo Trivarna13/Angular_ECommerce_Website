@@ -1,0 +1,82 @@
+.add {
+  background-image: url(../../assets/images/banner-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0px;
+  background-position: center center;
+}
+
+.container2 {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-md-12 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 200px;
+}
+
+.add .caption {
+  background-color: rgba(250, 250, 250, 0.9);
+  padding: 30px;
+  max-width: 450px;
+  letter-spacing: 1px;
+  border-radius: 10px;
+}
+
+.add .caption h1 {
+  margin-bottom: 15px;
+}
+
+.add .caption h1 span {
+  color: indianred;
+}
+
+.add .caption .line-dec {
+  width: 30px;
+  height: 5px;
+  background-color: indianred;
+  margin-bottom: 15px;
+}
+
+.add .caption p {
+  margin-bottom: 15px;
+}
+
+.add .caption .ref {
+  margin-bottom: 15px;
+  font-size: smaller;
+  color: grey;
+}
+
+a {
+  color: indianred;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.main-button a {
+  background-color: indianred;
+  border-radius: 5px;
+  padding: 10px 15px;
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0.4px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.main-button a:hover {
+  opacity: 0.7;
+}

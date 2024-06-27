@@ -1,0 +1,52 @@
+<!-- <p>signup works!</p> -->
+<div class="container">
+  <div class="form-container">
+    <h2>Sign Up</h2>
+    <form (submit)="handleSubmit($event)">
+      <div class="form-group">
+        <label for="name">
+          <strong>Name</strong>
+        </label>
+        <input
+          type="text"
+          placeholder="Enter Name"
+          class="form-control"
+          [(ngModel)]="name"
+          name="name"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="email">
+          <strong>Email</strong>
+        </label>
+        <input
+          type="email"
+          placeholder="Enter Email"
+          class="form-control"
+          [(ngModel)]="email"
+          name="email"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="password">
+          <strong>Password</strong>
+        </label>
+        <input
+          type="password"
+          placeholder="Enter password"
+          class="form-control"
+          [(ngModel)]="password"
+          name="password"
+          required
+        />
+      </div>
+      <button type="submit" class="btn btn-success">Sign Up</button>
+      <p>You agree to our terms and policies</p>
+      <a routerLink="/">
+        <div class="btn btn-default btn:hover">Log In</div>
+      </a>
+    </form>
+  </div>
+</div>

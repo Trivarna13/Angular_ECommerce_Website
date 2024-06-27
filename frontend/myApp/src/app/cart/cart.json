@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Gear Roses T-Shirt",
+    "price": 559.0,
+    "quantity": 1,
+    "imgPath": "assets/images/f3.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Roor Pleasant T-Shirt",
+    "price": 489.0,
+    "quantity": 2,
+    "imgPath": "assets/images/f4.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Roxie Palazzo",
+    "price": 177.0,
+    "quantity": 3,
+    "imgPath": "assets/images/f7.jpg"
+  },
+  {
+    "id": 4,
+    "name": "BeeGive Green Leaves T-Shirt",
+    "price": 300.0,
+    "quantity": 1,
+    "imgPath": "assets/images/f2.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Indie Party T-Shirt",
+    "price": 59.0,
+    "quantity": 2,
+    "imgPath": "assets/images/f8.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Roor Party T-Shirt",
+    "price": 289.0,
+    "quantity": 2,
+    "imgPath": "assets/images/f5.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Opti Formal T-Shirt",
+    "price": 677.0,
+    "quantity": 1,
+    "imgPath": "assets/images/n1.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Indie Orange & Blue T-Shirts",
+    "price": 500.0,
+    "quantity": 1,
+    "imgPath": "assets/images/f6.jpg"
+  }
+]

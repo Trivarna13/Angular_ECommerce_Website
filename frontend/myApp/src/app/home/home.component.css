@@ -1,0 +1,94 @@
+.latest {
+  padding: 25px 100px;
+}
+
+.product-intro {
+  text-align: center;
+}
+
+.product-intro h1 {
+  color: indianred;
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.product-intro h1 span {
+  color: rgba(15, 10, 29, 0.849);
+}
+
+.product-intro p {
+  color: grey;
+  margin: 15px 0px;
+}
+
+.card-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.card-container .card {
+  flex-basis: 20%;
+  padding: 0.8rem;
+  position: relative;
+  border: 1px solid #cce7d0;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  transition: 0.5s ease-in-out;
+}
+
+.card i {
+  color: indianred;
+  margin: 10px 0;
+}
+
+.card button {
+  color: white;
+  background-color: rgba(15, 10, 29, 0.849);
+  border: none;
+  outline: none;
+  margin-top: 15px;
+  padding: 3px 20px;
+}
+
+.card button i {
+  color: white;
+  margin-right: 10px;
+}
+
+.card:hover img,
+.card:hover h1 {
+  width: 80%;
+  color: indianred;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+a {
+  color: indianred;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.off::before {
+  content: "20% off";
+  width: 25%;
+  height: 25px;
+  line-height: 25px;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: indianred;
+  padding: 0 4px;
+  transform: rotate(-20deg);
+}
