@@ -23,11 +23,14 @@ export class SignupComponent {
     // console.log('Email:', this.email);
     // console.log('Password:', this.password);
     try {
-      const response = await axios.post('http://localhost:8081/signup', {
-        name: this.name,
-        email: this.email,
-        password: this.password,
-      });
+      const response = await axios.post(
+        'https://localhost:7118/api/Users/signup',
+        {
+          name: this.name,
+          email: this.email,
+          password: this.password,
+        }
+      );
       this.router.navigate(['/home']);
     } catch (error) {
       console.error('Error:', error);

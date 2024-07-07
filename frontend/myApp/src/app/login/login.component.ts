@@ -21,10 +21,13 @@ export class LoginComponent {
     // console.log('Email:', this.email);
     // console.log('Password:', this.password);
     try {
-      const response = await axios.post('http://localhost:8081/login', {
-        email: this.email,
-        password: this.password,
-      });
+      const response = await axios.post(
+        'https://localhost:7118/api/Users/login',
+        {
+          email: this.email,
+          password: this.password,
+        }
+      );
       if (response.data === 'Success') {
         this.router.navigate(['/home']);
       } else {
